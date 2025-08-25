@@ -1,0 +1,2 @@
+Final Project
+Copy your executable file from Program-5\x64\Release and your Media folder into this folder before the start of class on 12/2/2021. Check that your program runs when you double-click on the executable.

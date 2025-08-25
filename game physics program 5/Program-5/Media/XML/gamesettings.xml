@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<!-- Game settings -->
+
+<settings>
+  <game name="Rube Goldberg Machine" />
+  <renderer width="1024" height="768" />
+  
+   <font file="Media\Fonts\AverageSans_32.spritefont"/>
+
+  <!-- sprites -->
+
+  <sprites path="Media\Images">
+    <sprite name="background" file="background.png"/>
+    <sprite name="ball" file="ball.png"/>
+    <sprite name="button" file="button.png"/>
+    <sprite name="clockface" file="clockface.png"/>
+    <sprite name="line" file="line.png"/>
+    <sprite name="metroid" file="metroid.png"/>
+    <sprite name="kraid" file="Kraid.png"/>
+    <sprite name="kraidArm" file="KraidArm.png"/>
+    <sprite name="kraidFoot" file="KraidFoot.png"/>
+    <sprite name="kraidDead" file="KraidDead.png"/>
+    <sprite name="chozo" file="Chozo.png"/>
+    <sprite name="triangle" file="Triangle.png"/>
+    <sprite name="flipTriangle" file="FlipTriangle.png"/>
+    <sprite name ="bigLine" file="BigLine.png"/>
+  </sprites>
+
+  <!-- sound -->
+
+  <sounds path="Media\Sounds">
+    <sound name="yay" file="yay.wav" instances="1"/>
+    <sound name="bonk" file="bonk.wav" instances="4"/>
+    <sound name="buzz" file="buzz.wav" instances="1"/>
+    <sound name="restart" file="restart.wav" instances="1"/>
+    <sound name="whoosh" file="whoosh.wav" instances="1"/>
+    <sound name="bgm" file="bgm.wav" instances="1"/>
+    <sound name="boss" file="boss.wav" instances="1"/>
+    <sound name="attack" file="attack.wav" instances="1"/>
+    <sound name="kraid" file="Kraid.wav" instances="1"/>
+    <sound name="boom" file="Boom.wav" instances="1"/>
+  </sounds>
+</settings>

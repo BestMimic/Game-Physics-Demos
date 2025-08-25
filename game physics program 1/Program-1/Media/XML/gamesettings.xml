@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Analog Clock" />
+  <renderer width="640" height="640"/>
+   
+  <font file="Media\Fonts\AverageSans_24.spritefont"/>
+
+  <!-- sprites -->
+   
+  <sprites path="Media\Images">
+    <sprite name="background" file="background.png"/>
+    <sprite name="line" file="blackline.png"/>
+    <sprite name="redline" file="redline.png"/>
+    <sprite name="bezel" file="bezel.png"/>
+  </sprites>
+
+   <!-- sound -->
+  
+   <sounds  path="Media\Sounds">
+     <sound name="tick" file="ticktock.wav" instances="2"/>
+   </sounds>
+</settings>

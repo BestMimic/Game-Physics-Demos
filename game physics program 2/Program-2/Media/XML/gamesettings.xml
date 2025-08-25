@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Programming Assignment 2" />
+  <renderer width="1024" height="531"/>
+  
+   <font file="Media\Fonts\AverageSans_24.spritefont"/>
+   
+   <!-- sprites -->
+   
+   <sprites path="Media\Images">
+    <sprite name="background" file="table.png"/>
+    <sprite name="arrow" file="vector.png"/>
+    <sprite name="cueball" file="cueball.png"/>
+    <sprite name="eightball" file="8ball.png"/>
+    <sprite name="circle" file="circle.png"/>
+    <sprite name="thickcircle" file="thickcircle.png"/>
+    <sprite name="stepmode" file="step.png"/>
+    <sprite name="line" file="line.png"/>
+   </sprites>
+
+  <!-- sound -->
+  
+  <sounds path="Media\Sounds">
+    
+    <sound name="clang" file="clang.wav" instances="8"/>
+    
+    <sound name="cue" file="cue.wav" instances="1"/>
+    <sound name="click" file="ballclick.wav" instances="4"/>
+    <sound name="thump" file="thump.wav" instances="4"/>
+    <sound name="pocket" file="pocket.wav" instances="2"/>
+    <sound name="win" file="win.wav" instances="1"/>
+    <sound name="lose" file="lose.wav" instances="1"/>
+  </sounds>
+</settings>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<!-- Game settings -->
+
+<settings>
+  <game name="Program 4" />
+  <renderer width="1024" height="768" />
+   
+  <!-- sprites -->
+  <sprites  path="Media\Images">
+    <sprite name="windmillbg" file="windmillbg.png"/>
+    <sprite name="windmillblades" file="windmillblades.png"/>
+    <sprite name="windmillbase" file="windmillbase.png"/>
+    <sprite name="crate" file="crate.png"/>
+    <sprite name="tire" file="tire.png"/>
+    <sprite name="ball" file="ball.png"/>
+  </sprites>
+</settings>

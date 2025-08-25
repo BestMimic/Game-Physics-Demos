@@ -1,0 +1,78 @@
+/// \mainpage The 8-ball Pool End Game
+///
+/// This is the Pool End Game, a simple Windows application that uses
+/// hand-written physics code based on Euler integration.
+/// The aim of the game is to sink the 8-ball while not sinking the cue-ball. 
+/// In addition to being a minigame that you can actually play, the Pool
+/// End Game allows the player to toggle in and out of Step Mode in which the ball
+/// advances by 1/30th of a second each time the space bar is pressed and leaves
+/// a trail of markers as shown below. Step Mode is intended to help the player
+/// visualize the discrete nature of video game time.
+///
+/// @image html screenshot.png "Step Mode after the space bar has been depressed about 16 times." 
+///
+/// The player can also
+/// toggle in and out of Collision Mode, which displays yellow circles at the
+/// positions of the balls at time of impact with each other and with the rails.
+///
+/// @image html screenshot0.png "Collision Mode."
+///
+/// Step Mode and Collision Mode
+/// are mutually exclusive, which means that if the player toggles one
+/// mode on, then the other mode is switched off. 
+///
+/// Keyboard Controls
+/// -----------------
+///
+/// <center>
+/// <table>
+/// <tr>
+/// <td><center><b>Key</b></center></td>
+/// <td><center><b>Action</b></center></td>
+/// <tr>
+/// <td>F1</td>
+/// <td>Help (this document)</td>
+/// <tr>
+/// <td>F2</td>
+/// <td>Toggle frame rate</td>
+/// <tr>
+/// <td>F3</td>
+/// <td>Toggle step mode</td>
+/// <tr>
+/// <td>F4</td>
+/// <td>Toggle collision mode</td>
+/// <tr>
+/// <td>Up arrow</td>
+/// <td>Move cue ball upwards on the base line</td>
+/// <tr>
+/// <td>Down arrow</td>
+/// <td>Move cue ball downwards on the base line</td>
+/// <tr>
+/// <td>Left arrow</td>
+/// <td>Rotate impulse vector counterclockwise</td>
+/// <tr>
+/// <td>Right arrow</td>
+/// <td>Rotate impulse vector clockwise</td>
+/// <tr>
+/// <td>Page up</td>
+/// <td>Rotate impulse vector counterclockwise fast</td>
+/// <tr>
+/// <td>Page down</td>
+/// <td>Rotate impulse vector clockwise fast </td>
+/// <tr>
+/// <td>Space</td>
+/// <td>Fire cue ball/start new game/take step in Step Mode</td>
+/// <tr>
+/// <td>PrtScr (hold down)</td>
+/// <td>Save screenshot to a PNG file</td>
+/// </table>
+/// </center>
+///
+/// The LARC Engine
+/// ---------------
+///
+/// This code uses the [LARC Engine](https://larc.unt.edu/code/engine/) and is
+/// part of the [LARC Code Base](https://larc.unt.edu/code/).
+
+
+

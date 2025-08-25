@@ -1,0 +1,10 @@
+﻿  Common.cpp
+  Game.cpp
+  Main.cpp
+  Object.cpp
+  ObjectManager.cpp
+  Parts.cpp
+  Polygon.cpp
+  Renderer.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'Shapes.lib'

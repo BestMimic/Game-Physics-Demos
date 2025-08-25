@@ -1,0 +1,23 @@
+/// \mainpage 
+/// 
+/// This project consists of a collection of basic shapes that can be collided.
+/// It's not intended to be a full collision module, but it will give
+/// you a sense of some of the math and physics used in collision detection and response.
+/// It's implemented as a separate project that is included and compiled in the
+/// [Collision Math Toy](https://larc.unt.edu/code/physics/collisionmath/), 
+/// so that's where you should go if you are interested in reading and
+/// experimenting with the code. The compiled library is also linked into the
+/// [Pinball Game](https://larc.unt.edu/code/physics/pinball/), 
+/// so if you make any changes you should recompile that too
+/// to make sure you haven't broken it. 
+/// Note that unlike the code in the 
+/// [Pool End Game](https://larc.unt.edu/code/physics/pool/), the collision detection
+/// and response code here does not compute exact responses, but instead computes
+/// an approximation using faster methods. As a result, tunnelling and overlap may occur.
+///
+/// The LARC Engine
+/// ---------------
+///
+/// This code uses the [LARC Engine](https://larc.unt.edu/code/engine/) and is
+/// part of the [LARC Code Base](https://larc.unt.edu/code/).
+

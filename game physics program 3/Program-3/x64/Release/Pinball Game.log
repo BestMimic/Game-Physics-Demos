@@ -1,0 +1,16 @@
+﻿  ObjectManager.cpp
+C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\My Game\ObjectManager.cpp(297,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\My Game\ObjectManager.cpp(300,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\My Game\ObjectManager.cpp(303,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\My Game\ObjectManager.cpp(354,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\My Game\ObjectManager.cpp(355,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\My Game\ObjectManager.cpp(357,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\My Game\ObjectManager.cpp(358,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\My Game\ObjectManager.cpp(360,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\My Game\ObjectManager.cpp(361,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\My Game\ObjectManager.cpp(363,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\My Game\ObjectManager.cpp(364,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+  Finished generating code
+  Pinball Game.vcxproj -> C:\Users\natha\OneDrive\Documents\GameDev 2021\Game physics demos\game physics program 3\Program-3\x64\Release\Program-3.exe

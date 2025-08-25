@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Pinball" />
+  <renderer width="430" height="860"/>
+
+  <!-- sprites -->
+  <sprites path="Media\Images">
+    <sprite name="background" file="background.png"/>
+    <sprite name="blackline" file="blackline.png"/>
+
+    <sprite name="clip" file="clip.png"/>
+
+    <sprite name="diamond0" file="unlitdiamond.png"/>
+    <sprite name="diamond1" file="litdiamond.png"/>
+
+    <sprite name="triangle0" file="unlittriangle.png"/>
+    <sprite name="triangle1" file="littriangle.png"/>
+	
+    <sprite name="pentagon0" file="unlitpentagon.png"/>
+    <sprite name="pentagon1" file="litpentagon.png"/>
+
+    <sprite name="flipper" file="flipper.png"/>
+
+    <sprite name="special0" file="unlitspecial.png"/>
+    <sprite name="special1" file="litspecial.png"/>
+
+    <sprite name="slot0" file="target0.png"/>
+    <sprite name="slot1" file="target1.png"/>
+
+    <sprite name="ball" file="ballbearing.png"/>
+    <sprite name="LED" file="LED" ext="png" frames="10"/>
+  </sprites>
+
+  <!-- sound -->
+  
+  <sounds path="Media\Sounds">
+    <sound name="beep" file="hiblaster.wav" instances="8"/>
+    <sound name="blaster" file="blaster.wav" instances="8"/>
+    <sound name="ballclick" file="ballclick.wav" instances="8"/>
+    <sound name="launch" file="Thump.wav" instances="1"/>
+    <sound name="whiffle" file="whiffle2.wav" instances="1"/>
+    <sound name="flipup" file="flipup.wav" instances="2"/>
+    <sound name="flipdown" file="flipdn.wav" instances="2"/>
+    <sound name="lostball" file="lostball.wav" instances="1"/>
+    <sound name="load" file="load.wav" instances="1"/>
+    <sound name="click" file="click.wav" instances="4"/>
+    <sound name="tink" file="Ting.wav" instances="2"/>
+  </sounds>
+</settings>

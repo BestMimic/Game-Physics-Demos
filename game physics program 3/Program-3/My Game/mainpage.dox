@@ -1,0 +1,55 @@
+/// \mainpage The Pinball Game
+///
+/// This is a rudimentary pinball machine designed to put the
+/// [Shapes](https://larc.unt.edu/code/physics/shapes/)
+/// library we developed for the
+/// [Collision Math Toy](https://larc.unt.edu/code/physics/collisionmath/)
+/// to good use. 
+/// The aim of the game is to get as high a score as you can. 
+/// In addition to being a minigame that you can actually play, the Pinball 
+/// Game allows the player to change the draw mode from the normal
+/// "sprites only" mode in which the game will be shipped (below left),
+/// a "sprites and lines"
+/// mode in which the shapes are drawn in black over the sprites so that
+/// you can check that the sprites actually align with the shapes (below, middle),
+/// and "lines only" mode (below right) because it looks cool. The game can be played
+/// in any of the three draw modes.
+///
+/// @image html screenshot.png
+///
+/// Keyboard Controls
+/// -----------------
+///
+/// <center>
+/// <table>
+/// <tr>
+/// <td><center><b>Key</b></center></td>
+/// <td><center><b>Action</b></center></td>
+/// <tr>
+/// <td>F1</td>
+/// <td>Help (this document)</td>
+/// <tr>
+/// <td>F2</td>
+/// <td>Toggle draw mode from "sprites only", to "sprites and lines", to "lines only"</td>
+/// <tr>
+/// <td>Space</td>
+/// <td>Load a ball (first press) and launch it (second press)</td>
+/// <tr>
+/// <td>Left shift</td>
+/// <td>Left flipper up while key is down</td>
+/// <tr>
+/// <td>Right shift</td>
+/// <td>Right flipper up while key is down</td>
+/// <tr>
+/// <td>PrtScr (hold down)</td>
+/// <td>Save screenshot to a PNG file</td>
+/// </table>
+/// </center>
+///
+/// The LARC Engine
+/// ---------------
+///
+/// This code uses the [LARC Engine](https://larc.unt.edu/code/engine/) and is
+/// part of the [LARC Code Base](https://larc.unt.edu/code/).
+
+

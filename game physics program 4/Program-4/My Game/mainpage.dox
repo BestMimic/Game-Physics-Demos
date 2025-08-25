@@ -1,0 +1,110 @@
+/// \mainpage Box2D Joint Toy
+/// 
+/// The Box2D Joint Toy demonstrates
+/// revolute, gear, prismatic, wheel, distance, and pulley joints.
+/// It is divided into 7 levels.
+/// The enter key advances to the next level and the backspace key restarts the
+/// current level. The effect of hitting the space bar varies from level to level.
+/// This code demo has no sound.
+///
+/// The Levels
+/// ----------
+///
+/// ### 1. The Windmill
+///
+/// A windmill with a revolute joint connecting the vanes to the body.
+/// The revolute joint has a motor. 
+/// The space bar reverses the motor's direction of rotation. 
+///
+/// @image html screenshot0.png
+///
+/// ### 2. Gears
+///
+/// A system of 9 interlocked gears constructed using revolute and
+/// gear joints.The largest
+/// gear has a motor and the others are driven by their
+/// gear joints. The space bar reverses the motor's direction of
+/// rotation. The 4 square gears
+/// mesh perfectly the same way that round gears do.
+///
+/// @image html screenshot1.png
+/// 
+/// ### 3. Nautilus Gears
+///
+/// A system of 5 <em>nautilus gears</em>, which are gears
+/// in the shape of a nautilus shell. The center gear has a revolute joint with a motor. 
+/// The other gears have variable speed, so they cannot be animated by Box2D.
+/// We have to animate them ourselves which means doing a little math.  
+/// The space bar reverses the motor's direction of rotation.
+///
+/// @image html screenshot2.png
+/// 
+/// ### 4. Rack-and-Pinion
+///
+/// A <em>rack-and-pinion</em> consists of a round gear called a <em>pinion</em>
+/// connected to a toothed rod called a <em>rack</em>.
+/// When the pinion rotates, the rack moves horizontally. 
+/// The pinion has a
+/// revolute joint with a motor. 
+/// The rack is connected to the pinion using a gear joint and a prismatic joint.
+/// The space bar reverses the motor's direction of rotation.
+///
+/// @image html screenshot3.png
+/// 
+/// ### 5. Car
+///
+/// A car drives autonomously back and forth over a pair of ramps. 
+/// The car is constructed using a pair of wheel joints that
+/// have motors. The space bar reverses the motors' directions of rotation.
+///
+/// @image html screenshot4.png
+/// 
+/// ### 6. Newton's Cradle
+///
+/// Distance joints are used to construct a Newton's Cradle with 6 balls.
+/// When the balls are stopped, hitting the space bar will lift and release
+/// from 1 to 5 balls in sequence.
+/// After that it should behave like a real Newton's Cradle.
+/// When the balls are in motion, the space bar stops them.
+///
+/// @image html screenshot5.png
+///
+/// ### 7. Elephant Drop
+///
+/// A pulley joint is used to lift a safe when an elephant is dropped
+/// into a wooden cradle. The pulley wheels and ropes are animated in code.
+///
+/// @image html screenshot6.png
+/// 
+/// Keyboard Controls
+/// -----------------
+/// 
+/// <center>
+/// <table>
+/// <tr>
+/// <td><center><b>Key</b></center></td>
+/// <td><center><b>Action</b></center></td>
+/// <tr>
+/// <td>F1</td>
+/// <td>Help (this document)</td>
+/// <tr>
+/// <td>Backspace</td>
+/// <td>Reset current level</td>
+/// <tr>
+/// <td>Enter</td>
+/// <td>Advance to next level</td>
+/// <tr>
+/// <td>Space</td>
+/// <td>Do an interesting thing</td>
+/// <tr>
+/// <td>PrtScr (hold down)</td>
+/// <td>Save screenshot to a PNG file</td>
+/// </table>
+/// </center>
+///
+/// The LARC Engine
+/// ---------------
+///
+/// This code uses the [LARC Engine](https://larc.unt.edu/code/engine/) and is
+/// part of the [LARC Code Base](https://larc.unt.edu/code/).
+
